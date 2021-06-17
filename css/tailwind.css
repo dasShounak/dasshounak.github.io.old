@@ -14,7 +14,7 @@
     nav .link-wrapper {
         display: flex;
         flex-direction: column;
-        transition: transform 0.3s ease;
+        transition: transform 0.2s ease;
     }
 
     nav .link-wrapper:hover {
@@ -23,7 +23,7 @@
 
     nav .title {
         display: block;
-        transition: transform 0.3s ease;
+        transition: transform 0.2s ease;
     }
 
     nav .title-1 {
@@ -33,6 +33,7 @@
     nav .title-2 {
         transform-origin: left center;
         transform: rotate(20deg);
+        @apply text-highlight;
     }
 
     nav .link-wrapper:hover .title-1 {
@@ -41,7 +42,6 @@
 
     nav .link-wrapper:hover .title-2 {
         transform: rotate(0deg);
-        color: #ff3399;
     }
 
     @media (max-width: 767px) {
