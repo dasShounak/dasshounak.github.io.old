@@ -8,6 +8,7 @@
         height: 1.5rem;
         line-height: 1;
         padding: 0;
+        margin: 4px 0;
         overflow: hidden;
     }
 
@@ -56,6 +57,11 @@
 
     /* HERO */
     #hero {
-        height: calc(100vh - 112px);
+        @apply h-full;
+    }
+    @media (min-width: 768px) {
+        #hero {
+            height: calc(100vh - 112px);
+        }
     }
 }
