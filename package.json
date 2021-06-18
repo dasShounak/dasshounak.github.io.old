@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "set NODE_ENV=development && postcss css/tailwind.css -o css/build.css -w",
+    "dev": "postcss css/tailwind.css -o css/build.css -w",
     "build": "set NODE_ENV=production && postcss css/tailwind.css -o css/build.css"
   },
   "keywords": [],
